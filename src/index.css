@@ -54,13 +54,18 @@ img{
   padding: 15px;
   padding-top: 0%;
 }
+.center h2{
+  font-weight: 500;
+}
 .center h3{
   font-size: 16px;
+  font-weight: 550;
+  margin-bottom: 10px;
 }
 .center span{
   font-size: 11px;
   color: rgb(200, 200, 200);
-  font-weight: 700;
+  font-weight: 600;
 }
 .center h4{
   font-size: 14px;
@@ -87,10 +92,11 @@ img{
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  margin-top: 80px;
+  margin-top: auto;
   border-top: 1px solid black ;
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 .bottom button{
   background-color: rgb(18, 18, 18);
