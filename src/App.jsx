@@ -104,11 +104,23 @@ const App = () => {
       location: "Mumbai, India"
     }
   ];
+
   return (
-    jobOpenings.map(function(elem) {
-      return <Card logo = {elem.brandLogo} company = {elem.companyName} date = {elem.datePosted} post = {elem.post} tag1 = {elem.tag1} tag2 = {elem.tag2} pay = {elem.pay} location = {elem.location}/>
-    })
-  )
-}
+    jobOpenings.map(function(elem,idx) {
+      return (
+        <Card 
+        key = {idx}
+        logo = {elem.brandLogo} 
+        company = {elem.companyName} 
+        date = {elem.datePosted} 
+        post = {elem.post} 
+        tag1 = {elem.tag1} 
+        tag2 = {elem.tag2} 
+        pay = {elem.pay} 
+        location = {elem.location}/>
+      )
+      })
+    )
+  }
 
 export default App
