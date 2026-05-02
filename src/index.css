@@ -9,11 +9,12 @@
   gap: 20px;
   justify-content: space-evenly;
 }
+
+
 body,html{
   min-height: 100vh;
-  background-color: rgb(231, 231, 231);
-  height: 100%;
-  width: 100%;
+  background: linear-gradient(135deg, #ffffff, #727272, #ffffff);
+  min-height: 100vh;
 }
 .parent{
   height: 300px;
@@ -23,6 +24,8 @@ body,html{
   display: flex;
   flex-direction: column;
   border-radius: 40px;
+  ;
+  background: linear-gradient(135deg, #ffffff, #ededed);
 }
 img{
   height: 40px;
